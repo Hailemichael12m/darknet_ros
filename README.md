@@ -195,3 +195,15 @@ You can change the parameters that are related to the detection by adding a new 
 * **`yolo_model/detection_classes/names`** (array of strings)
 
     Detection names of the network used by the cfg and weights file inside `darknet_ros/yolo_network_config/`.
+#### How to Run
+
+* **`sudo apt-get install ros-noetic-cv-camera`**\
+
+Run
+
+* **`rosrun cv_camera cv_camera_node`**\
+
+Launch
+
+* **`darknet_ros.launch`**
+
